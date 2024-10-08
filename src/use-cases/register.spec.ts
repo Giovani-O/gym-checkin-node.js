@@ -54,7 +54,8 @@ describe('Register Use Case', () => {
       password: 'Abc123!',
     })
 
-    expect(async () => {
+    // Sempre que houver uma promise dentro do expect, usar await
+    await expect(async () => {
       await registerUseCase.execute({
         name: 'John Doe',
         email,
