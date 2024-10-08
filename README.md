@@ -17,7 +17,7 @@ API for a gym chek-in app.
 
 ## Business rules
 
-- [ ] The user shouldn't be able to sign up with a duplicated e-mail;
+- [x] The user shouldn't be able to sign up with a duplicated e-mail;
 - [ ] The user cannot check-in twice in the same day;
 - [ ] The user cannot check-in if they aren't near (100m) a gym;
 - [ ] Check-in can be validated up to 20 minutes after being created;
@@ -26,7 +26,7 @@ API for a gym chek-in app.
 
 ## Non-functional requirements
 
-- [ ] User password must be encrypted;
-- [ ] All the data must be persisted in a PostgresSQL database;
+- [x] User password must be encrypted;
+- [x] All the data must be persisted in a PostgresSQL database;
 - [ ] All data lists must be paginated with 20 items per page;
 - [ ] User mus be identified by a JWT.
