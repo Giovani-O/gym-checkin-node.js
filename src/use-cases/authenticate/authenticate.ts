@@ -1,6 +1,6 @@
 import { UsersRepository } from '@/repositories/users-repository'
 import { InvalidCredentialsError } from '../errors/invalid-credentials-error'
-import { compare } from 'bcryptjs'
+import bcrypt from 'bcryptjs'
 import { User } from '@prisma/client'
 
 interface AuthenticateUseCaseRequest {
@@ -24,6 +24,7 @@ export class AuthenticateUseCase {
       throw new InvalidCredentialsError()
     }
 
+    const { compare } = bcrypt
     const doesPasswordMatch = await compare(password, user.password_hash)
 
     if (!doesPasswordMatch) {
