@@ -11,14 +11,14 @@ API for a gym chek-in app.
 - [ ] Should be able to obtain the check-in history of the user;
 - [ ] Should be possible to search gyms nearby;
 - [ ] Should be possible to search gyms by name;
-- [ ] Should be possible to check-in in a gym;
+- [x] Should be possible to check-in in a gym;
 - [ ] Should be possible to validate a user's check-in;
 - [ ] Should be possible to add a gym;
 
 ## Business rules
 
 - [x] The user shouldn't be able to sign up with a duplicated e-mail;
-- [ ] The user cannot check-in twice in the same day;
+- [x] The user cannot check-in twice in the same day;
 - [ ] The user cannot check-in if they aren't near (100m) a gym;
 - [ ] Check-in can be validated up to 20 minutes after being created;
 - [ ] Check-in can only be validated by admins;
