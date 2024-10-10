@@ -4,8 +4,8 @@ API for a gym chek-in app.
 
 ## Functional Requirements
 
-- [ ] Should be able to sign up;
-- [ ] Should be able to sign in;
+- [x] Should be able to sign up;
+- [x] Should be able to sign in;
 - [ ] Should be able to fetch the profile of a authenticated user;
 - [ ] Should be able to fetch the number of check-ins of a user;
 - [ ] Should be able to obtain the check-in history of the user;
