@@ -12,7 +12,7 @@ API for a gym chek-in app.
 - [x] Should be possible to search gyms nearby (10km);
 - [x] Should be possible to search gyms by name;
 - [x] Should be possible to check-in in a gym;
-- [ ] Should be possible to validate a user's check-in;
+- [x] Should be possible to validate a user's check-in;
 - [x] Should be possible to add a gym;
 
 ## Business rules
