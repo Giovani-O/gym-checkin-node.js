@@ -9,8 +9,8 @@ API for a gym chek-in app.
 - [x] Should be able to fetch the profile of a authenticated user;
 - [x] Should be able to fetch the number of check-ins of a user;
 - [x] Should be able to obtain the check-in history of the user;
-- [ ] Should be possible to search gyms nearby;
-- [ ] Should be possible to search gyms by name;
+- [x] Should be possible to search gyms nearby (10km);
+- [x] Should be possible to search gyms by name;
 - [x] Should be possible to check-in in a gym;
 - [ ] Should be possible to validate a user's check-in;
 - [x] Should be possible to add a gym;
