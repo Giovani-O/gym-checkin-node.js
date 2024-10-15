@@ -20,7 +20,7 @@ API for a gym chek-in app.
 - [x] The user shouldn't be able to sign up with a duplicated e-mail;
 - [x] The user cannot check-in twice in the same day;
 - [x] The user cannot check-in if they aren't near (100m) a gym;
-- [ ] Check-in can be validated up to 20 minutes after being created;
+- [x] Check-in can be validated up to 20 minutes after being created;
 - [ ] Check-in can only be validated by admins;
 - [ ] Gyms can only be added by admins;
 
